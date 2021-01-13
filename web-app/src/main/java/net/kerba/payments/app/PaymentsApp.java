@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Входная точка для старта приложения.
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "net.kerba.payments.controller")
 @SuppressWarnings({"HideUtilityClassConstructor"})
 public class PaymentsApp {
 
