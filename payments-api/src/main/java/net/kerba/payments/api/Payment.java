@@ -20,9 +20,4 @@ public interface Payment {
      */
     Amount getFinalAmount();
 
-    /**
-     * Интерфейс, описывающий реквизит платежа.
-     */
-    interface Requisite {
-    }
 }
